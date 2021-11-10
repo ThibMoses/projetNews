@@ -1,0 +1,82 @@
+
+                
+                    .pub{
+                        width: 32%;
+                        margin-right: 1%;
+                        padding-bottom: 0%;
+                    }
+                    .last{
+                        margin-right: 0%;
+                    }
+                    .h5{
+                        margin-top: 10%;
+                        color: blue;
+                    }
+                    .h6{
+                        font-size: 12px;
+                        opacity: 0.7;
+                    }
+                    p{
+                        max-height: 100px;
+                        min-height: 100px;
+                        overflow-y: auto;
+                        color: rgb(121, 121, 121);
+                    }
+                    div .avis{
+                        margin-bottom: 4%;
+                        margin-top: 6%;
+                    }
+                    .avis span{
+                        color: blue;
+                        margin-top: 2.5%;
+                    }
+                    span i{
+                        color: blue;
+                    }
+                    @media (max-width: 902px){
+                        .pub{
+                            width: 48%;
+                            margin-right: 2%;
+                        }
+                    }
+                    @media (max-width: 502px){
+                        .pub{
+                            width: 80%;
+                            margin-left: 10%;
+                            margin-right: 10%;
+                        }   
+                    }
+                    .drop{
+                        color: white !important;
+                    }
+                    .drop:hover{
+                        background-color: rgb(22, 0, 122);
+                    }
+                    .drop:link{
+                        background-color: rgb(255, 255, 255);
+                        color: black !important;
+                    }
+                    .submenu li:hover{
+                        background-color: rgb(193, 129, 252);
+                    }
+                    .menu-block{
+                        background-color: #00A7E3;
+                    }
+                    .left-side-bar{
+                        background-color: rgb(175, 175, 175);
+                    }
+                    .header{
+                        background-color: #00A7E3;
+                    }
+                    body{
+                        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                    }
+                    .submenu{
+                        background-color: rgb(0, 0, 202);
+                    }
+                    .w{
+                        font-weight: 500;
+                        font-size: 18px;
+                        height: 100px;
+                    }
+                
